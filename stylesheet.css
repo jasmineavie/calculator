@@ -1,0 +1,56 @@
+body, ul {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul{
+
+    list-style: none;
+    text-align: center;
+
+}
+
+#eggNog {
+
+    height: 200px;
+    width: 400px;
+    border: solid black 10px;
+    font-size: 40px;
+    padding-top: 80px;
+
+
+}
+
+#hotChocolate {
+    height: 200px;
+    width: 400px;
+    border: solid black 10px;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+#carrots {
+    height: 200px;
+    width: 400px;
+    border: solid black 10px;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+#ginger {
+    height: 200px;
+    width: 400px;
+    border: solid black 10px;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+h2 {
+    font-size: 40px;
+}
