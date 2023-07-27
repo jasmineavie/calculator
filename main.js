@@ -15,3 +15,20 @@ function addFour() {
     total = total + 4
     document.querySelector("#resulty").innerText = total
 }
+
+
+document.querySelector("#carrots").addEventListener("click", addTen)
+
+function addTen() {
+    total = total + 10
+    document.querySelector("#resulty").innerText = total
+}
+
+
+
+document.querySelector("#ginger").addEventListener("click", subTwo)
+
+function subTwo() {
+    total = total - 2
+    document.querySelector("#resulty").innerHTML = total
+}
